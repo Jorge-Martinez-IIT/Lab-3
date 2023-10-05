@@ -252,11 +252,11 @@ p{
 	padding: 1em;
 	font-family: 'AR One Sans', 'Gabarito', Onest;
 }
-@media screen and(max-height: 400px){
+@media (max-height: 400px){
 html{
 	display: flex;
 	margin: 0;
-    position: absolute;
+	position: absolute;
 }
 #input-age-verification {
 	display: flex;
