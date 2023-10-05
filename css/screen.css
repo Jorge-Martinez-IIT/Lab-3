@@ -225,7 +225,6 @@ form{
 p{
 	justify-content: center;
 	text-align: center;
-	font-family: sans-serif;
 	font-size: 1.4em;
 	padding: 1em;
 	font-family: 'Inter', 'Raleway', Noto Sans;
@@ -253,8 +252,10 @@ p{
 	padding: 1em;
 	font-family: 'AR One Sans', 'Gabarito', Onest;
 }
-@media(max-width: 600px){
-#email{
+@media screen(max-height: 400px){
+html{
 	display: flex;
+	margin: 0;
+    position: absolute;
 }
 }
